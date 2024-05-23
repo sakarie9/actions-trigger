@@ -1,0 +1,13 @@
+interval = 3600
+token = ""
+
+[[triggers]]
+target_repo = "user/repo"
+workflow_repo = "user_you/repo_you"
+workflow_id = "build.yaml"
+workflow_ref = "main"
+
+[[triggers]]
+target_repo = "user/repo1"
+workflow_repo = ""
+workflow_id = ""
